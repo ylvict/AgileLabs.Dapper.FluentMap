@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper.FluentMap" Version="1.5.3" />
-    <PackageReference Include="System.ComponentModel.Annotations" Version="4.3.0" />
+    <PackageReference Include="Dapper.FluentMap" Version="1.6.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
   </ItemGroup>
 
 </Project>

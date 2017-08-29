@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26510.0
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgileLabs.Dapper.FluentMap.Tests", "..\test\AgileLabs.Dapper.FluentMap.Tests\AgileLabs.Dapper.FluentMap.Tests.csproj", "{46FAD373-BCF2-4252-84BA-105B771DCCAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgileLabs.Dapper.FluentMap", "AgileLabs.Dapper.FluentMap\AgileLabs.Dapper.FluentMap.csproj", "{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +17,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Debug|x64.Build.0 = Debug|Any CPU
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Debug|x86.Build.0 = Debug|Any CPU
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Release|x64.ActiveCfg = Release|Any CPU
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Release|x64.Build.0 = Release|Any CPU
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Release|x86.ActiveCfg = Release|Any CPU
-		{C3CAFBC3-1501-4128-A33C-8AFDCF19B07D}.Release|x86.Build.0 = Release|Any CPU
 		{46FAD373-BCF2-4252-84BA-105B771DCCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{46FAD373-BCF2-4252-84BA-105B771DCCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46FAD373-BCF2-4252-84BA-105B771DCCAF}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -39,8 +29,23 @@ Global
 		{46FAD373-BCF2-4252-84BA-105B771DCCAF}.Release|x64.Build.0 = Release|Any CPU
 		{46FAD373-BCF2-4252-84BA-105B771DCCAF}.Release|x86.ActiveCfg = Release|Any CPU
 		{46FAD373-BCF2-4252-84BA-105B771DCCAF}.Release|x86.Build.0 = Release|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Debug|x64.Build.0 = Debug|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Debug|x86.Build.0 = Debug|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Release|x64.ActiveCfg = Release|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Release|x64.Build.0 = Release|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Release|x86.ActiveCfg = Release|Any CPU
+		{605ABFF3-3252-4CF3-8F13-DC75A4FA59C6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F378004B-F816-40B4-93B5-D3E49A8767D3}
 	EndGlobalSection
 EndGlobal
